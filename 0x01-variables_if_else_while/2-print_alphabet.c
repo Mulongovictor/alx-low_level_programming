@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <time.h>
+/* more headers goes there */
+
+/**
+ * main -print alphabets in lower case a-z
+ * Return: always (0)
+*/
+int main(void)
+{
+	char i = 'a';
+
+	while (i <= 'g')
+	{
+		putchar(i);
+		i++;
+	}
+	putchar('\n');
+	return (0);
+}
