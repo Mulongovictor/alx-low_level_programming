@@ -1,11 +1,12 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
 /*
  * betty style doc for function main goes there
- * This program will assign a random number to the variable n each
- * time it is executed. Complete the source code in order to print whether
- * the number stored in the variable n is positive or negative.
+ * main - generate random numbers to detect -ve or +ve
+ *
+ * Return: always (0)
 */
 int main(void)
 {
@@ -23,7 +24,7 @@ int main(void)
 	}
 	else
 	{
-	print("The number is a negative number\n");
+	printf("The number is a negative number\n");
 	}
 	/* your code goes there */
 	return (0);
