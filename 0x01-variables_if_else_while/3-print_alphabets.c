@@ -3,26 +3,24 @@
 /* more headers goes there */
 
 /**
- * main -print alphabets in upper and
- * lower case a-z
+ * main -print alphabets in lower case a-z
  * Return: always (0)
 */
 int main(void)
 {
-	int num_1, num_2;
-	num_1 = '0';
-	num_2 = '0';
+	char Lower = 'a';
+	char Upper = 'A';
 
-	while (num_1 <= '9')
+	while (Lower <= 'z')
 	{
-		while (num_2 <= '9')
-		{
-			if (num_1 < num_2)
-			{
-				putchar(num_1);
-				putchar(num_2);
-				if (num_1 != '8' || (num_1 == '8' && num_2 != '9'))
-					put
+		putchar(Lower);
+		Lower++;
+	}
+	while (Upper <= 'z')
+	{
+		putchar(Upper);
+		Upper++;
+	}
 	putchar('\n');
 	return (0);
 }
