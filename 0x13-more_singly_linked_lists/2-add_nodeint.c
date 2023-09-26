@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add-nodeint - adds a new node to the list struct listint_s.
+ * add_nodeint - adds a new node to the list struct listint_s.
  * @head: is a double pointer that points to the address of the new node.
  * @n: is the number of new nodes to add.
  * Return: newnode added.
