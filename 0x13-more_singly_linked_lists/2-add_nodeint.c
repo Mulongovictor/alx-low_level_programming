@@ -13,7 +13,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 
 	newnode = malloc(sizeof(struct listint_s));
 
-	if (newmode == NULL)
+	if (newnode == NULL)
 	{
 		return (NULL);
 	}
