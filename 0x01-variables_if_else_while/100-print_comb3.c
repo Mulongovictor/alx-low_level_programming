@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <time.h>
 
 /**
  * main - prints all possible different combinations of two digits,
@@ -8,7 +7,7 @@
  */
 int main(void)
 {
-	int i, ji;
+	int i, j;
 
 	for (i = 48; i <= 57; i++)
 	{
