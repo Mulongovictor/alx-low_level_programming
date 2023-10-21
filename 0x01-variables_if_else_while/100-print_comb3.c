@@ -12,12 +12,12 @@ int main(void)
 
 	for (i = 48; i <= 57; i++)
 	{
-		for(j = (i + 1); j <= 57; j++)
+		for (j = (i + 1); j <= 57; j++)
 		{
 			putchar(i);
 			putchar(j);
 
-			if(i != '8')
+			if (i != '8')
 			{
 				putchar(',');
 				putchar(' ');
@@ -25,5 +25,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
