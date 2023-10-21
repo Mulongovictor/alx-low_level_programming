@@ -1,38 +1,29 @@
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
 
 /**
- * main -print alphabets in upper and
- * lower case a-z
+ * main - prints all possible different combinations of two digits,
+ * they are  different, prints only the smallest combination.
  * Return: always (0)
-*/
+ */
 int main(void)
 {
-	int num_1, num_2;
+	int i, ji;
 
-	num_1 = '0';
-	num_2 = '0';
-
-	while (num_1 <= '9')
+	for (i = 48; i <= 57; i++)
 	{
-		while (num_2 <= '9')
+		for(j = (i + 1); j <= 57; j++)
 		{
-			if (num_1 < num_2)
+			putchar(i);
+			putchar(j);
+
+			if(i != '8')
 			{
-				putchar(num_1);
-				putchar(num_2);
-				if (num_1 != '8' || (num_1 == '8' && num_2 != '9'))
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
-			num_2++;
 		}
-		num_1++;
-		num_2 = '0';
 	}
 	putchar('\n');
-	return (0);
+	return 0;
 }
