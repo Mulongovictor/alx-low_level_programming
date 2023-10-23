@@ -4,6 +4,7 @@
 /**
  * print_last_digit - prints the last digit of a figure or number
  * @n: is the figure
+ *
  * Return: the last number of the figure.
  */
 
