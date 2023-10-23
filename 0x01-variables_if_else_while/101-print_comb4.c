@@ -3,8 +3,10 @@
 /* more headers goes there */
 
 /**
- * main -print alphabets in upper and
- * lower case a-z
+ * main - prints all possible different combinations of three digits.
+ * numbers are separated by , followed by space.
+ * The three digits are different
+ *
  * Return: always (0)
  */
 int main(void)
