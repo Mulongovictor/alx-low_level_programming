@@ -3,23 +3,20 @@
 
 /**
  * print_last_digit - prints the last digit of a figure or number
- * @n: is the figure
+ * @num: is the figure
  *
  * Return: the last number of the figure.
  */
 
-int print_last_digit(int n)
+int print_last_digit(int num)
 {
-	int num;
+	int num2;
 
-	if (n < 0)
-		n = -n;
-	num = n % 10;
+	num2 = num % 10;
 	if (num < 0)
 	{
-		num = num * 1;
+		num2 = -num2;
 	}
-	_putchar('0' + num);
-	return (num);
-
+	putchar('0' + num2);
+	return (num2);
 }
