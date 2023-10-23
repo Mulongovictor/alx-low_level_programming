@@ -3,7 +3,8 @@
 /* more headers goes there */
 
 /**
- * main -print alphabets except q and e
+ * main - prints all possible combinations of single digit numbers
+ * numbers are separated by , followed by a space.
  * Return: always (0)
 */
 int main(void)
