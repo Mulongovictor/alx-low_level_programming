@@ -5,8 +5,8 @@
 
 /**
  * main - This program will assign a random number to
- * the variable n each time it is executed. Complete
- * it  prints the last digit of the number stored in the variable n.
+ * the variable n each time it is executed.
+ * It  prints the last digit of the number stored in the variable n.
  *
  * Return: Always (0)
 */
