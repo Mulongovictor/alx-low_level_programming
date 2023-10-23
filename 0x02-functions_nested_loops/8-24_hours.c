@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * jack_bauer - prints every minute of the day for Jack bauer
@@ -25,6 +26,4 @@ void jack_bauer(void)
 		}
 
 	}
-	_putchar('\n');
-
 }
