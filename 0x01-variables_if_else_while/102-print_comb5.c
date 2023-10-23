@@ -3,9 +3,11 @@
 /* more headers goes there */
 
 /**
- * main -print alphabets in upper and
- * lower case a-z
- * Return: always (0)
+ * main - prints all possible combinations of two two-digit numbers.
+ * The numbers should range from 0 to 99, the two numbers should be
+ * separated by a space
+ *
+ * Return: 0 Always
  */
 int main(void)
 {
