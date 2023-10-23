@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
 
 /**
- * main -print alphabets with out char and use putchar
+ * main - prints all single digit numbers of base 10 starting from 0
+ * 
  * Return: always (0)
 */
 int main(void)
