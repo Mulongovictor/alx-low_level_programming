@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
 
 /**
- * main -print alphabets in lower case a-z
+ * main - print alphabets in lower case and then in uppercase
+ * followed by a newline
+ *
  * Return: always (0)
 */
 int main(void)
