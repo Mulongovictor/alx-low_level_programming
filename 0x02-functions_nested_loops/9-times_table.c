@@ -16,10 +16,32 @@ void times_table(void)
 		for (j = 0; j <= 9; j++)
 		{
 			num = i * j;
-			printf("%d", num);
-			putchar(',');
-			putchar(' ');
+			if ((num / 10) == 0)
+			{
+				if (j != 9)
+				{
+					_putchar(' ');
+				}
+				_putchar(num + '0');
+				if (j == 9)
+				{
+					continue;
+				}
+				_putchar(',');
+				_putchar(' ');
+			}
+			else if ((num / 10) != 0)
+			{
+				_putchar((num / 10) + '0');
+				_putchar((num % 10) + '0');
+				if (j == 9)
+				{
+					continue;
+				}
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
