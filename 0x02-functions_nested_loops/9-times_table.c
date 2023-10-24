@@ -34,12 +34,11 @@ void times_table(void)
 			{
 				_putchar((num / 10) + '0');
 				_putchar((num % 10) + '0');
-				if (j == 9)
+				if (j != 9)
 				{
-					continue;
-				}
 				_putchar(',');
 				_putchar(' ');
+				}
 			}
 		}
 		_putchar('\n');
