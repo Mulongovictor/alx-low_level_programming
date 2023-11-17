@@ -1,19 +1,29 @@
-#include "lists.h"
+#include "main.h"
+
 /**
- * print_dlistint - print all the elements of a dlistint_t list
- * @h: pointer to the head of the DLL
- * Return: the number of nodes type size_t
+ * print_dlistint - prints elements of the linked list
+ * @h: head pointer
+ *
+ * Return: the number of elements in the list
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-	size_t num_of_nodes;
+	size_t count = 0;
 
-	num_of_nodes = 0;
-	while (h)
+	if (h == NULL)
 	{
-		printf("%d\n", h->n);
-		h = h->next;
-		num_of_nodes = num_of_nodes + 1;
+		printf("The stack is empty");
 	}
-	return (num_of_nodes);
+	else
+	{
+		while (h != NULL)
+		{
+			printf("%d", h->n);
+			h = h->next;
+			count++;
+			printf("\n");
+		}
+	}
+	printf("\n");
+	return (count);
 }
