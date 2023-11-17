@@ -2,9 +2,9 @@
 
 /**
  * print_dlistint - prints elements of the linked list
- * @h: head pointer
+ * @h: head pointer to the Double Linked List
  *
- * Return: the number of elements in the list
+ * Return: the number of elements in the list in type size_t
  */
 size_t print_dlistint(const dlistint_t *h)
 {
