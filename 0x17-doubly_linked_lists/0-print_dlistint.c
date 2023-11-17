@@ -12,7 +12,7 @@ size_t print_dlistint(const dlistint_t *h)
 
 	if (h == NULL)
 	{
-		printf("The stack is empty");
+		printf("The stack is empty\n");
 	}
 	else
 	{
@@ -20,7 +20,7 @@ size_t print_dlistint(const dlistint_t *h)
 		{
 			printf("%d", h->n);
 			h = h->next;
-			count++;
+			count += 1;
 			printf("\n");
 		}
 	}
