@@ -1,4 +1,4 @@
-i#include "hash_tables.h"
+#include "hash_tables.h"
 
 /**
  * key_index - function that get the index where key/value is stored
